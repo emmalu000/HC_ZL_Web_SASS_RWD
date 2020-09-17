@@ -47,7 +47,9 @@ $color-sub: #6efa7e;
     .social {
         img {
             filter: invert(36%) sepia(82%) saturate(5935%) hue-rotate(265deg) brightness(102%) contrast(101%);
-            transition: 0.6s;
+09            transition: 0.2s;
+            width: 32px;
+            margin-left: 30px;
 
             &:hover {
                 filter: invert(100%) sepia(35%) saturate(3804%) hue-rotate(51deg) brightness(103%) contrast(97%);
