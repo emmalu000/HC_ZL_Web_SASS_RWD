@@ -1,11 +1,12 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: 微軟正黑體;
+  font-family: 微軟黑正體;
+  color: #ad34ff;
 }
 
 #navigation {
@@ -13,9 +14,33 @@
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
-  padding: 20px 0;
+  padding: 20px 100px;
   -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
           box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#navigation .logo {
+  font-family: "Bebas Neue", cursive;
+  font-size: 42px;
+  text-decoration: none;
+}
+
+#navigation .logo:hover {
+  color: #6efa7e;
+}
+
+#navigation .link a {
+  text-decoration: none;
+  padding: 30px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#navigation .link a:hover {
+  color: #6efa7e;
 }
 
 #navigation .social img {
