@@ -130,5 +130,33 @@ $font-family-main: "Bebas Neue", cursive;
         margin: 0 auto;
         // repeat(數量，一格的寬度)
         grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 335px);
+        //格邊間隙：上下 左右
+        grid-gap: 10px 25px;
+
+        .work-box-small {
+
+            img {
+                display: block;
+                width: 100%;
+                height: 300px;
+                background: #ad34ff;
+            }
+           
+            h2 {
+                text-align: center;
+                //變形：位移 Y軸 (單位)
+                transform: translateY(-30px);
+            }
+
+            span {
+                display: inline-block;
+                border: 1px solid #6efa7e;
+                border-radius: 30px;
+                padding: 5px 10px;
+                margin-top: 5px;
+                font-size: 12px;
+            }
+        }
     }
 }
